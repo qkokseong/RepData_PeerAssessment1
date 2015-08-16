@@ -37,7 +37,7 @@ clean_dat <- complete.cases(dat)
 dat_sum_by_date <- ddply(dat[clean_dat,], c("date"), numcolwise(sum))
 ```   
 
-
+ 
 ## What is mean total number of steps taken per day?
 We can check the total number of steps taken each day with the histogram below,
 ```{r meantotalsteps, echo=TRUE}

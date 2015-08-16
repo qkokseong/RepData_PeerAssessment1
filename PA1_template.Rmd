@@ -23,7 +23,7 @@ library(plyr)
 library(lattice) 
 library(reshape2)
 
-setwd("C:/tmp2/coursera")
+setwd("C:/tmp2/coursera")  #Change to your working directory
 ```
 
 ```{r loadata, echo=TRUE}
